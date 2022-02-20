@@ -1,0 +1,1 @@
+This repo is for all work related to the freecodecamp.org "responsive web design" course.
