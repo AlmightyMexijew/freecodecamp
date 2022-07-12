@@ -1,0 +1,17 @@
+body {
+  background:linear-gradient(90deg, aquamarine, white);
+}
+h1 {
+  color:blue;
+  background:linear-gradient(90deg,green,white,purple,yellow)
+}
+p {
+  font-family:sans-serif;
+  font-weight:bold;
+  color:blue;
+}
+
+label {
+  margin:0 auto;
+  font-family:verdana;
+}

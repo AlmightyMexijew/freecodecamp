@@ -1,0 +1,71 @@
+*{margin:0;
+padding:0;}
+
+@media only screen and (maxwidth:1000px){
+  iframe {
+    height:100;
+    width:100;
+  }
+}
+#header-wrap{position:relative;}
+#nav-bar{
+  position:fixed;
+}
+#nav-bar ul {display:flex;}
+
+#nav-bar li{padding:10px;
+list-style:none;
+}
+#header{display:flex;
+font-family:sans-serif;
+background-color:grey;
+font-weight:bold;
+font-size:32px;
+}
+
+#header-img{
+  height:100;
+}
+
+
+main {
+  font-family:monospace;
+  color:lightblue;
+  background-color:grey;
+}
+
+#about-NRU {
+padding-left:20%;
+}
+
+#services {
+  padding-left:20%;
+}
+#cost {
+  padding-left:20%;  
+}
+.cost-wrap{
+  display:flex;
+}
+#demo {
+  padding-left:20%;
+}
+li {
+  margin:10px;
+}
+.firewall {
+  color:orangered;
+  font-weight:bolder;
+}
+.icewall {
+  color:darkblue;
+  font-weight:bolder;
+}
+.anti {
+  color:white;
+  font-weight:bolder;
+}
+.pirate{
+  color:black;
+  font-weight:bolder;
+}

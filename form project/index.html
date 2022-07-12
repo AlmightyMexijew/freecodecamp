@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+<h1 id="title">My Survey</h1>
+<p id="description">This form is for my project</p>
+<br>
+<p>I would like to know more about you</p>
+<form id="survey-form">
+  <input id="name" type="text" placeholder="Put your name" required></input>
+  <label id="name-label">Name</label>
+  <br>
+  <input id="email" type="email" placeholder="Put your email" required></input>
+  <label id="email-label">Email</label>
+  <br>
+  <input id="number" type="number" placeholder="Pick a number between 1 and 5" min="1" max="5" required></input>
+  <label id="number-label">Number 1 - 5</label>
+  <br>
+  <label for="dropdown">What is your sex?</label>
+  <select id="dropdown">
+    <option value="male">male</option>
+    <option value="female">female</option>
+  </select>
+  <br>
+  <p>What language is better?</p>
+  <input type="radio" id="html" name="fav_lang" value ="html"></input>
+  <label for="html">html</label>
+  <input type="radio" id="css" name="fav_lang" value="css"></input>
+  <label for="css">css</label>
+  <br>
+  <p>What kind of animal is best?</p>
+  <input type="checkbox" value="dog"></input>
+  <label for="dog">dog</label>
+  <input type="checkbox" value="cat"></input>
+  <label for="cat">cat</label>
+  <input type="checkbox" value="rooster"></input>
+  <label for="rooster">rooster</label>
+  <input type="checkbox" value="none"></input>
+  <label for="none">none</label>
+  <textarea id="mytext" row="2" col="3"></textarea>
+  <label for="mytext">Tell me something</label>
+  <input type="submit" id="submit"></input> 
+</form>
+</body>
+</html>

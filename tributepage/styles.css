@@ -1,0 +1,16 @@
+* {
+  font-family:sans-serif;
+  color:orange;
+}
+body {background-color:yellow;}
+/*my tacky yellow*/
+
+h1 {
+  bold:800;
+  text-align:center;}
+#image {
+  align-self:center;
+  max-width:100%;
+  height:auto;
+}
+img {display:block;}
