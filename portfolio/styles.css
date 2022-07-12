@@ -1,0 +1,107 @@
+:root{
+    --dark-background-color:#113959;
+      --light-text-color:#298AD9;
+      --light-background-color:#1F69A6;
+    }
+    
+    *{padding:0;
+    margin:0;
+    font-family:sans-serif;}
+
+
+    /*navbar stuff*/
+    #navbar {position:fixed;
+    top:0;
+    width:100%;
+    border-bottom:solid black 2px;
+    height:70px;
+    background-color:var(--light-background-color);
+    }
+    #navbar ul {
+      display:flex;
+      justify-content:right;
+      padding:20px;
+    }
+    #navbar li {
+      padding:10px;
+      list-style:none;
+      color:var(--light-text-color);
+    }
+    /*welcome-section*/
+    #welcome-section{margin-top:130px;
+    text-align:center;
+    height:100vh;
+      }
+      #welcome-section h1 {
+        padding-top:15vh;
+        font-size:4rem;
+      }
+      #hello-line{
+        display:block;
+        height:8px;
+        width:550px;
+        background-color:grey;
+        margin-left:28%;
+        margin-bottom:20px;
+      }
+      .iam, .hello {font-family:sans-serif;}
+      /*About section*/
+      #about{
+        padding-top:100px;
+        padding-left:10px;
+        margin-bottom:30px;
+        height:100vh;
+        background-color: #1F69A6;
+        color:white;
+        }
+
+      #about li {padding-top:10px;
+      list-style: none;
+      width:800px;
+      font-size:18px;}
+
+      .whoami{
+        font-size:50px;
+        padding-bottom:35px;
+      }
+      #about img {height:300px;
+      padding-bottom:10px;
+      float:right;}
+      .aboutme1 {
+        font-size: 18px;
+        width:800px;
+        padding-bottom:10px;
+      }
+  
+      /*projects section*/
+    #projects {
+      height:100vh;
+    }
+    #project-wrap {
+      display:flex;
+      justify-content:space-evenly;
+      padding-top:70px;
+      margin-bottom:120px;
+    }
+    #projects h1 {padding-top:70px;}
+    .project-tile {border:white solid 2px;
+    height:300px;
+    background:linear-gradient(90deg,white,black);}
+    /*contact section*/
+    #contact {
+      background-color:#1F69A6;
+      color:white;
+      padding-top:70px;
+      
+    }
+    /*general stuff*/
+    body{background-color:var(--dark-background-color);
+    color:var(--light-text-color);}
+    
+    /*Media Query mandatory*/
+    @media only screen and (maxwidth:600px){
+      img {height:100px;}
+      .project-tile{height:95px;}
+      *{overflow:auto;}
+    }
+    
