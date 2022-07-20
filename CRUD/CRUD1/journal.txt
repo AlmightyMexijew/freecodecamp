@@ -96,3 +96,38 @@ This one separates and spaces out the icons better within the span.
 }
 This one doesn't seem to have an effect at this point though text in #msg will turn red.
 
+Oddly enough in the visuals provided it shows the icons next to one another and underneath....
+
+Step 8: Adding JavaScript.
+The logical flow is like this:
+Application --> button click ->submit. --> formValidation { success and failure}
+success -->accept and store data -->upload on screen -->reset form,update/delete --> upload on screen.
+
+failure -->Error Message.
+
+Form Validation: We target all ID selectors in the HTML.
+let form = document.getElementById("form");
+let input = document.getElementById("input");
+let msg = document.getElementById("msg");
+let posts = document.getElementById("posts");
+
+This JS code allows us to target using variables. form will be form variable, input input variable, msg msg variable, and so on...
+By doing this, we can just call them directly.
+**This resembles the jQuery  we did in FCC front-end libraries.
+
+Next step is to make an event listener for submitting the form.  This will prevent the default behavior so we can slip formValidation in.
+
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    console.log("button clicked");
+
+    formValidation();
+    });
+
+    let formValidation = () => {};
+})
+
+How this breaks apart:
+form uses the function for an event listener on submit. The event triggers a function.
+
+The function activates something called "preventDefault()" and console.log's the button being clicked.....and then runs another function called "formValidation(). It defines this afterward.
