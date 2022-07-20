@@ -1,0 +1,24 @@
+Journal
+This journal is to write down thoughts as I continue through the project. It will help internalize everything as well as provide insight into what I am doing.
+
+Step 1:
+We are building a CRUD app... CRUD means Create,Read,Update,Delete application. It's common in social media and blogs. It's fairly important to learn as a skill since pieces of it (such as how to save and how to delete) are largely important in other facets of web programming.
+
+Project Setup: Create 3 files named index.html,style.css,main.js  and then put them on live server.
+
+Step 2:
+For HTML, put the basic template as laid out.
+
+<body>
+<h1>Social Media App</h1>
+<div class="container">
+    <div class="left"></div>
+    <div class="right"></div>
+</div>
+
+</body>
+
+To translate the code in our body: We have a heading called Social Media App. It sits structurally above a container div(classed as container).
+
+Inside that container div are 2 more divs, .left and .right.
+

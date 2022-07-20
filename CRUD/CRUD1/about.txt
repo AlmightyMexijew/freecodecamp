@@ -1,0 +1,2 @@
+This project is CRUD1, aka, a "fake social media" CRUD system.
+It is one of several projects found at https://www.freecodecamp.org/news/learn-crud-operations-in-javascript-by-building-todo-app/
