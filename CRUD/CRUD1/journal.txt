@@ -71,3 +71,28 @@ i {
     cursor:pointer;
 }
 This sets the mouse to a pointer hand (like when clicking links) as it hovers on the icons. This is a visual indicator of what it's going to do (when we are done).
+
+Step 7: more CSS for #posts.
+
+#posts div {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+This will make the display flex...and then align-items will center the content and justify-content will arrange them based on the space between the elements involved.
+
+Visually this centers the posts and moves the icons over to the right side a bit.
+
+.options {
+    display:flex;
+    gap:25px;
+}
+
+This one separates and spaces out the icons better within the span.
+
+#msg {
+    color:red;
+}
+This one doesn't seem to have an effect at this point though text in #msg will turn red.
+
