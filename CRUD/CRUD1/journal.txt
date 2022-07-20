@@ -22,3 +22,19 @@ To translate the code in our body: We have a heading called Social Media App. It
 
 Inside that container div are 2 more divs, .left and .right.
 
+Step 3: The tutorial requires us to put our posts on the left side....so we have to put in .left a form.
+
+<div class="left">
+    <form id="form">
+        <label for="post"> Write your post here</label>
+        <br><br>
+        <textarea name="post" id="input" cols="30" rows="10"></textarea>
+        <br><br>
+        <div id="msg"></div>
+        <button type="submit">Post</button>
+    </form>
+</div>
+
+This code makes a form called #form.  It has a label for some feature called "post" and tells users to write their post inside. It has 2 breaks for spacing and then it has a textarea element to hold the text. Since we are posting multi-lines potentially there is good reason to use textarea over input.  It's attributes give it id of #input", a name for backend of "post", and it assigns 30(width) x 10(height) via col/row system.
+
+There is beneath a container div (#msg) that I suspect will house our message after JS, and it's type is submit because it'll do as it's text says (Post).
