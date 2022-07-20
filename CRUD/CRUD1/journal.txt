@@ -38,3 +38,36 @@ Step 3: The tutorial requires us to put our posts on the left side....so we have
 This code makes a form called #form.  It has a label for some feature called "post" and tells users to write their post inside. It has 2 breaks for spacing and then it has a textarea element to hold the text. Since we are posting multi-lines potentially there is good reason to use textarea over input.  It's attributes give it id of #input", a name for backend of "post", and it assigns 30(width) x 10(height) via col/row system.
 
 There is beneath a container div (#msg) that I suspect will house our message after JS, and it's type is submit because it'll do as it's text says (Post).
+
+On the right side however, in .right , we put an h3 that says "your posts here" and another div with id #posts so perhaps this is where it'll display...or just a listing of posts.
+
+Step 4: Add fontawesome fonts...
+Step 5: Make sample posts.
+
+We made sample posts inside of a div container #posts. Each consists of a div with a <p></p> nested inside and a span that has "options" for us (2 icons from font-awesome representing edit/delete).
+
+Step 6: Add css
+body {
+    font-family:sans-serif;
+    margin: 0 50px;
+}
+This sets the body to font-family of sans-serif for all text unless specified elsewhere.
+This also puts a margin of 50px on the left/right sides in the shorthand while turning off the top/bottom ones.
+
+.container {
+    display: flex;
+    gap: 50px;
+}
+
+This sets our container (holding both .left and .right) to be flexbox. This probably will be the method used to put them side by side.  A gap was indicated of 50px. After checking on screen it seems to be the space between .left and .right.
+
+#posts {
+    width:400px;
+}
+
+This sets the space for our post area with the posts we've already got.
+
+i {
+    cursor:pointer;
+}
+This sets the mouse to a pointer hand (like when clicking links) as it hovers on the icons. This is a visual indicator of what it's going to do (when we are done).
