@@ -131,3 +131,5 @@ How this breaks apart:
 form uses the function for an event listener on submit. The event triggers a function.
 
 The function activates something called "preventDefault()" and console.log's the button being clicked.....and then runs another function called "formValidation(). It defines this afterward.
+--------
+Continuation from day 1:
